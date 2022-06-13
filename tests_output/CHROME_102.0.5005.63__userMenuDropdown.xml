@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="userMenuDropdown"
+    errors="1" failures="1" hostname="" id="" package="userMenuDropdown" skipped="0"
+    tests="1" time="12.80" timestamp="">
+  
+    <testcase name="css" classname="userMenuDropdown" time="12.80" assertions="2">
+
+      <failure message="Testing if element &lt;//a[@class=&#39;interact&#39;]&gt; contains text &#39;User settings&#39; in 5000ms - expected &#34;contains text &#39;User settings&#39;&#34; but got: &#34;element could not be located&#34; (5218ms)">    at Object.css (C:\Users\dige\nightwatch-automation\tests\userMenuDropdown.js:29:20)</failure>
+
+    
+    <error message="invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=102.0.5005.63)" type="error"><![CDATA[
+    InvalidSelectorError: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=102.0.5005.63)
+    at Object.throwDecodedError (C:\Users\dige\nightwatch-automation\node_modules\selenium-webdriver\lib\error.js:522:15)
+    at parseHttpResponse (C:\Users\dige\nightwatch-automation\node_modules\selenium-webdriver\lib\http.js:548:13)
+    at Executor.execute (C:\Users\dige\nightwatch-automation\node_modules\selenium-webdriver\lib\http.js:474:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Driver.execute (C:\Users\dige\nightwatch-automation\node_modules\selenium-webdriver\lib\webdriver.js:735:17)
+    at async Driver.findElements (C:\Users\dige\nightwatch-automation\node_modules\selenium-webdriver\lib\webdriver.js:1061:17)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       InvalidSelectorError: invalid selector: An invalid or illegal selector was specified
+   (Session info: chrome=102.0.5005.63)
+     (Session info: chrome=102.0.5005.63)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

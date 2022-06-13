@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="simple"
+    errors="0" failures="0" hostname="" id="" package="simple" skipped="0"
+    tests="1" time="5.817" timestamp="">
+  
+    <testcase name="Login Page" classname="simple" time="5.817" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .setValue() command on &lt;#user&gt;: Timed out while waiting for element &#34;#user&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.css (C:\Users\dige\nightwatch-automation\tests\selectors.js:10:13)
+ Error: Error while running &#34;click&#34; command: Provided locating strategy &#34;input[type=submit]&#34; is not supported for .click(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+       at Object.css (C:\Users\dige\nightwatch-automation\tests\selectors.js:15:13)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
