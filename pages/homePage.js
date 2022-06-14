@@ -13,6 +13,9 @@ module.exports = {
       "body > modal-container > div > div > c8y-confirm-modal > div > div > button.btn.btn-primary",
     welcomeToCockpit:
       "#cdk-drop-list-2 > div > div.card-inner-scroll > c8y-dynamic-component > c8y-welcome-to-cockpit > div > div > div > h2",
+    addWidgetButton:
+      "#page-toolbar > ul.nav.navbar-nav.navbar-right > li:nth-child(1) > button",
+    appSwitcherDropdown: "#appSwitcherDropdown",
   },
   commands: [],
 };

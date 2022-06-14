@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="loginTest"
-    errors="0" failures="0" hostname="" id="" package="loginTest" skipped="0"
-    tests="1" time="3.059e+5" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="loginTest" skipped="0"
+    tests="1" time="4.219" timestamp="">
   
-    <testcase name="css" classname="loginTest" time="3.059e+5" assertions="3">
+    <testcase name="css" classname="loginTest" time="4.219" assertions="2">
 
     
-
+<system-out>[[ATTACHMENT|C:\Users\dige\nightwatch-automation\tests_output\screenshots\loginTest\css_FAILED_Jun-14-2022-093847-GMT+0300.png]]</system-out>
     
-
+    <error message="Element &#34;welocomeToCockpit&#34; was not found in &#34;homePage&#34;. Available elements: userSettingsLink, requestSupportLink, logOutLink, activateSupport, activateAccessButton, welcomeToCockpit" type="error"><![CDATA[
+    Error: Element &#34;welocomeToCockpit&#34; was not found in &#34;homePage&#34;. Available elements: userSettingsLink, requestSupportLink, logOutLink, activateSupport, activateAccessButton, welcomeToCockpit
+    at Command.validate (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:103:13)
+    at Command.getElement (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:115:10)
+    at Command.parseElementSelector (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:183:39)
+    at Command.executeCommand (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:216:10)
+    at Page.waitForElementPresent (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:55:27)
+    at Object.css (C:\Users\dige\nightwatch-automation\tests\loginTest.js:28:10)
+    at Context.call (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\context.js:430:35)
+    at TestCase.run (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\index.js:690:80)
+    at Runnable.run (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    ]]></error>
     
     </testcase>
   
 
+  
+    <system-err>
+       Error: Element &#34;welocomeToCockpit&#34; was not found in &#34;homePage&#34;. Available elements: userSettingsLink, requestSupportLink, logOutLink, activateSupport, activateAccessButton, welcomeToCockpit
+       at Object.css (C:\Users\dige\nightwatch-automation\tests\loginTest.js:28:10)
+    </system-err>
   
 
     

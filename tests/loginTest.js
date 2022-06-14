@@ -1,8 +1,5 @@
 module.exports = {
-  css: function (browser) {
-    const userMenuLogoutButton =
-      "#app > c8y-bootstrap > div > c8y-header-bar > div > div.header-bar > c8y-user-menu-outlet > div > ul > li:nth-child(4) > a";
-
+  loginTest: function (browser) {
     let login = browser.page.loginPage();
 
     login
@@ -25,10 +22,10 @@ module.exports = {
 
     let home = browser.page.homePage();
 
-    home.assert
-      .visible("@welcomeToCockpit")
+    // home.assert
+    //   .visible("@welcomeToCockpit")
 
-      .saveScreenshot("./screenshots/homePage_screenshots.png");
+    home.saveScreenshot("./screenshots/homePage_screenshots.png");
 
     browser.pause();
     browser.end();

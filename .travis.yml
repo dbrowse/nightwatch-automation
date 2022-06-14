@@ -16,4 +16,4 @@ deploy:
   provider: pages
   github-token: $GITHUB_TOKEN
   on:
-    branch: feature/loginPage
+    branch: main

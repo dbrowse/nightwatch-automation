@@ -1,3 +1,11 @@
+const loginCommands = {
+  loginAs: function (username, password) {
+    return this.setValue("@username", username)
+      .setValue("@password", password)
+      .click("@submitLogin");
+  },
+};
+
 module.exports = {
   url: "https://regressiond.int2-ram.m2m.telekom.com/",
   elements: {
@@ -14,12 +22,5 @@ module.exports = {
     helpAndServiceLink:
       "#app > c8y-bootstrap > c8y-login > div > div > c8y-credentials > form > div:nth-child(6) > a",
   },
-  commands: [
-    {
-      setUser(selector, value) {
-        const login_page = this;
-        return this;
-      },
-    },
-  ],
+  commands: [loginCommands],
 };
