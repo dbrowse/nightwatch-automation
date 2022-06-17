@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="before"
+    errors="1" failures="0" hostname="" id="" package="before" skipped="0"
+    tests="1" time="1.760" timestamp="">
+  
+    <testcase name="Open app switcher" classname="before" time="1.760" assertions="0">
+    <error message="Element &#34;username&#34; was not found in &#34;loginPage&#34;. Available elements: cookieBanner, acceptCookieButton, userName, password, submitLogin, forgotPasswordLink, helpAndServiceLink" type="error"><![CDATA[
+    Error: Element &#34;username&#34; was not found in &#34;loginPage&#34;. Available elements: cookieBanner, acceptCookieButton, userName, password, submitLogin, forgotPasswordLink, helpAndServiceLink
+    at Command.validate (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:103:13)
+    at Command.getElement (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:115:10)
+    at Command.parseElementSelector (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:183:39)
+    at Command.executeCommand (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:216:10)
+    at Promise.setValue (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:55:27)
+    at Promise.loginAs (C:\Users\dige\nightwatch-automation\page\loginPage.js:3:17)
+    at Object.beforeEach (C:\Users\dige\nightwatch-automation\tests\before.js:3:41)
+    at Context.callAsync (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\context.js:446:20)
+    at Context.invokeMethod (C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\context.js:395:21)
+    at C:\Users\dige\nightwatch-automation\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:79:24
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error: Element &#34;username&#34; was not found in &#34;loginPage&#34;. Available elements: cookieBanner, acceptCookieButton, userName, password, submitLogin, forgotPasswordLink, helpAndServiceLink
+       at Promise.loginAs (C:\Users\dige\nightwatch-automation\page\loginPage.js:3:17)
+       at Object.beforeEach (C:\Users\dige\nightwatch-automation\tests\before.js:3:41)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
